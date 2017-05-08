@@ -7,4 +7,4 @@ ENV LOG_LEVEL=info
 
 ENV JAVA_OPTS="-Xmx1536m -Xms256m"
 
-ENTRYPOINT java -jar $JAVA_OPTS lang-detect-1.1.0-jar-with-dependencies.jar
+ENTRYPOINT java -jar $JAVA_OPTS lang-detect-1.2.0-SNAPSHOT-jar-with-dependencies.jar
